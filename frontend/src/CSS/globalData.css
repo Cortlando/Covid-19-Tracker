@@ -1,0 +1,26 @@
+.heading {
+    text-align: center;
+    font-size: 180%;
+}
+
+.data {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 300%;
+}
+
+#cases {
+    color: orange;
+}
+
+#deaths {
+    color: red;
+}
+
+#recovered {
+    color: green;
+}
+
+#tests {
+    color: yellow
+}
