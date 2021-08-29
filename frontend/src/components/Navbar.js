@@ -31,7 +31,7 @@ export default function DenseAppBar() {
       <AppBar class="navbar" position="static">
         <Toolbar variant="dense">
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-          <img src="https://cdn.clipart.email/bda0e4768ca9340dcfdcdf529e0ce9b3_coronavirus-png-transparent-images-png-all_1197-1199.png" className="App-logo" alt="logo" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/SARS-CoV-2_without_background.png" className="App-logo" alt="logo" />
           </IconButton>
           <Typography variant="h6" color="inherit">
             COVID-19
