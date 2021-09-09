@@ -49,7 +49,7 @@ console.log(rows)
 async function getData() {
 
   //grab all data from the api
-  let response = await axios.get('http://localhost:5000/countries');
+  let response = await axios.get('https://corona19track.herokuapp.com/countries');
         console.log('Response: ')
         console.log(response)
         

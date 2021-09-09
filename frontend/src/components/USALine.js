@@ -25,7 +25,7 @@ class lineGraph extends Component{
     }
 
     async getUSAData() {
-        let response = await axios.get("http://localhost:5000/lineGraph2/united-states")
+        let response = await axios.get("https://corona19track.herokuapp.com/lineGraph2/united-states")
         console.log(response)
        
        

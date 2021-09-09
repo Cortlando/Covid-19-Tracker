@@ -18,7 +18,7 @@ class UsaChart extends Component {
     }
 
     async getCountryData() {
-        let response = await axios.get("http://localhost:5000/UsaChart")
+        let response = await axios.get("https://corona19track.herokuapp.com/UsaChart")
 
         this.setState({
             data:{

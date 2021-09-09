@@ -18,7 +18,7 @@ class Chart extends Component {
     }
 
     async getGlobalData() {
-        let response = await axios.get("http://localhost:5000/PieChart")
+        let response = await axios.get("https://corona19track.herokuapp.com/PieChart")
 
         this.setState({
             data:{

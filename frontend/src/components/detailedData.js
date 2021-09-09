@@ -27,7 +27,7 @@ class detailedData extends React.Component {
     }
 
     async getData() {
-        let response = await axios.get("http://localhost:5000/advancedstats/"+this.state.region)
+        let response = await axios.get("https://corona19track.herokuapp.com/advancedstats/"+this.state.region)
 
         this.setState(
             {
