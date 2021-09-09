@@ -99,12 +99,6 @@ export default function Hamburger(){
 
                     <div class="divider"/>
 
-                    <Button size='large' 
-                    href="#text-buttons" 
-                    variant="contained" 
-                    fullWidth="true" 
-
-                    className={classes.ResourcesButton}> Resources</Button>
                     
                   
                     </div>
